@@ -1,0 +1,319 @@
+
+*{
+box-sizing: border-box;
+
+}
+
+body{
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+h1, ul li{
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+main img{
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+main p{
+    text-align: center;
+    font-size: 0.9rem;
+    width: 90%;
+    height: 100px;
+    margin: 5px auto;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+section h3{
+text-align: center;
+margin: 20px auto;
+}
+
+.img_projects {
+    width: 250px;
+    display: block;
+    margin: 30px auto 10px auto;
+}
+
+.project_title {
+    text-align: center;
+    margin: 1px auto;
+}
+
+.project_description{
+text-align: center;
+padding: 10px;
+margin: 5px auto 30px auto;
+}
+
+.clear{
+    clear: both;
+}
+
+section .callme,
+.number, .mail{
+    text-align: center;
+}
+
+.number{
+    margin-top: 30px;
+}
+
+
+footer {
+    margin-top: 50px;
+    border-top: 1px solid #F8F8F8;
+}
+
+footer p{
+    display:inline-block;
+}
+
+.right {
+    float: right;
+}
+
+.footer_720{
+    display: none;
+}
+
+.light_grey{
+    background-color: #F8F8F8;
+
+}
+ 
+
+/* Media Queries  */
+
+
+@media screen and (min-width: 768px){
+
+body{
+width: 70%;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+ul {
+    text-align: center;
+   
+}
+
+h1{
+    margin-top: 40px;
+}
+
+main img{
+    width: 190px;
+    float: right;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+main p{
+    text-align:unset;
+    width: 58%;
+    margin: 40px 0 0 10px;
+}
+
+section h3{
+    text-align: center;
+    margin-top: 100px;
+    }
+
+    .wrapper_projects{
+        display: inline-block;
+        width: 48%;
+        float: left;
+    }
+
+    .wrapper_projects1{
+        display: inline-block;
+        width: 48%;
+        float: right;
+    }
+
+    .wrapper_projects2{
+        display: inline-block;
+        width: 48%;
+        float: left;
+    }
+
+    .wrapper_projects3{
+        display: inline-block;
+        width: 48%;
+        float: right;
+    }
+
+    .wrapper_projects4{
+        display: inline-block;
+        width: 48%;
+        float: left;
+    }
+
+    .wrapper_projects5{
+        display: inline-block;
+        width: 48%;
+        float: right;
+    }
+    
+    .clear{
+        clear: both;
+    }
+
+    .number{
+        margin-top: 50px;
+    }
+
+    .contact{
+        margin-top: 60px;
+    }
+
+    .footer_320{
+        display: none;
+    }
+
+    .footer_720{
+    display:list-item;
+    height: 100px;
+    font-size: 0.9rem;
+    
+    }
+
+    .footer_720 h1{
+    float: left;
+    
+    }
+
+    .footer_720 ul{
+        float: right;
+        margin-top: 39px;
+        
+
+     
+    }
+
+    .footer_720 li{
+        padding: 10px;
+        
+    }
+    
+
+
+    
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+
+body{
+width: 90%;
+max-width: 1000px;
+margin: 0 auto;
+}
+
+h1 {
+float:left;
+text-align: unset;
+margin-left: 19px;
+}
+
+ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.clear{
+    clear: both;
+}
+
+main img{
+    width: 400px;
+    margin: 0px 20px 0px 0px ;
+}
+
+main p{
+    text-align: unset;
+    font-size: 1.6rem;
+    width: 50%;
+    height: 100px;
+    margin: 10px 0 0 20px;
+}
+
+.wrapper_projects.wp1{
+    display: inline-block;
+    width: 33%;
+    float: left;
+}
+
+.wrapper_projects1.wp1{
+    display: inline-block;
+    width: 33%;
+    float: left;
+}
+
+.wrapper_projects2.wp1{
+    display: inline-block;
+    width: 33%;
+    float: left;
+}
+
+.wrapper_projects3.wp2{
+    display: inline-block;
+    width: 33%;
+    float: left;
+}
+
+.wrapper_projects4.wp2{
+    display: inline-block;
+    width: 33%;
+    float: left;
+}
+
+.wrapper_projects5.wp2{
+    display: inline-block;
+    width: 33%;
+    float: right;
+}
+
+.callme{
+   text-align: center;
+    width: 60%;
+    margin-left: 20%; 
+}
+
+}
