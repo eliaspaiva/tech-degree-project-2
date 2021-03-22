@@ -97,6 +97,12 @@ section,
     margin-top: 30px;
 }
 
+#html-img {
+    width: 212px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
 
 footer {
     margin-top: 50px;
@@ -137,6 +143,8 @@ footer p{
     word-spacing: -2px;
 
 }
+
+
 
 
 
@@ -190,43 +198,38 @@ main p{
 
 section h3{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10px;
     }
 
     .wrapper_projects{
         display: inline-block;
         width: 48%;
-        float: left;
+        
     }
 
     .wrapper_projects1{
         display: inline-block;
         width: 48%;
-        float: right;
     }
 
     .wrapper_projects2{
         display: inline-block;
         width: 48%;
-        float: left;
     }
 
     .wrapper_projects3{
         display: inline-block;
         width: 48%;
-        float: right;
     }
 
     .wrapper_projects4{
         display: inline-block;
         width: 48%;
-        float: left;
     }
 
     .wrapper_projects5{
         display: inline-block;
         width: 48%;
-        float: right;
     }
     
     .clear{
@@ -251,6 +254,7 @@ section h3{
     height: 100px;
     font-size: 0.9rem;
     font-family: 'Syne Mono', monospace;
+    margin-top: 10px;
 
     
     }
@@ -277,7 +281,31 @@ section h3{
     .footer_720 li{
         padding: 10px;
         
-    }    
+    }   
+    
+    .img-skills {
+        display: flex; 
+    }
+
+    .h4-html{
+        margin-top: 23px;
+        margin-bottom: 15px;
+    }
+
+    .h4-css{
+        margin-bottom: 17px;
+    }
+
+    #html-img {
+      padding-bottom: 0;
+    }
+
+    .img-css {
+        margin-bottom: 0px;
+    }
+
+    
+    
 }
 
 
@@ -344,37 +372,31 @@ main p{
 .wrapper_projects.wp1{
     display: inline-block;
     width: 33%;
-    float: left;
 }
 
 .wrapper_projects1.wp1{
     display: inline-block;
     width: 33%;
-    float: left;
 }
 
 .wrapper_projects2.wp1{
     display: inline-block;
     width: 33%;
-    float: left;
 }
 
 .wrapper_projects3.wp2{
     display: inline-block;
     width: 33%;
-    float: left;
 }
 
 .wrapper_projects4.wp2{
     display: inline-block;
     width: 33%;
-    float: left;
 }
 
 .wrapper_projects5.wp2{
     display: inline-block;
     width: 33%;
-    float: right;
 }
 
 .callme{
@@ -387,6 +409,7 @@ main p{
 .footer_720{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
      }
 
     .footer_720 h1{
@@ -410,6 +433,46 @@ main p{
     .footer_720 li{
         padding: 10px;
         
-    }    
+    }
 
+
+    .img-skills {
+        display: flex;
+        justify-content: center; 
+    }
+
+}
+
+
+
+@media screen and (min-width: 1440px){
+    .wrapper_projects.wp1{
+        display: inline-block;
+        width: 30%;
+    }
+    
+    .wrapper_projects1.wp1{
+        display: inline-block;
+        width: 30%;
+    }
+    
+    .wrapper_projects2.wp1{
+        display: inline-block;
+        width: 30%;
+    }
+    
+    .wrapper_projects3.wp2{
+        display: inline-block;
+        width: 30%;
+    }
+    
+    .wrapper_projects4.wp2{
+        display: inline-block;
+        width: 30%;
+    }
+    
+    .wrapper_projects5.wp2{
+        display: inline-block;
+        width: 30%;
+    }
 }
